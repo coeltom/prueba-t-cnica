@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>User List</h1>
+      <input
+        type="text"
+        id="search"
+        placeholder="Search by name, username, or email" />
+
+      <select id="sort">
+        <option value="name">Sort by Name</option>
+        <option value="username">Sort by Username</option>
+        <option value="email">Sort by Email</option>
+      </select>
+
+      <ul id="user-list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
